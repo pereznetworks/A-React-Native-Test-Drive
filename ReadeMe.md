@@ -42,3 +42,8 @@
 ## RUN THIS CODE FOR YOURSELF:
   - 1st, setup your development environment: https://reactnative.dev/docs/environment-setup  
   - 2nd, clone this repo, and copy the code into your new AwesomeProject folder
+
+### Caveats and Requirements:
+  - This GitHub repo only has the code I am building and maintaining
+  - To run the code developers will the to do step 1, above
+    - to have latest react native and accompanying libraries and development environment
