@@ -1,9 +1,10 @@
 # A React Native Test Drive
+- Modified by Daniel Perez, July 2020
   - adapted from from ReactNative's Library, NewAppScreen
     - find it here on Github: https://github.com/facebook/react-native/tree/master/Libraries/NewAppScreen
   - adapted from React Native's AwesomeProject
     - create your own here:  https://reactnative.dev/docs/environment-setup
-  - Modified by Daniel Perez, July 2020
+
 
 ## FEATURES:
   - for now, using only the react native library
