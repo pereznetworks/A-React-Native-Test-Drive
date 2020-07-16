@@ -38,7 +38,7 @@
   - event handlers : respond to and use Events more efficiently
   - more modular : make the components more modular and reusable
   - UX: add UI components that work and feel like apps, not like web pages
-  - real app to test drive :build and add some real native react apps
+  - real apps to test drive :build and add some real native react apps
 
 ## RUN THIS CODE FOR YOURSELF:
   - 1st, setup your development environment: https://reactnative.dev/docs/environment-setup  
