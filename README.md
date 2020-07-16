@@ -50,12 +50,17 @@
   - 2nd, clone this repo, and copy the code into your new AwesomeProject folder
 
 ### Caveats and Requirements:
+
   - This code runs and is tested on
-    - react native v0.63
+    - react-native v0.63
     - node v12.14.0
     - npm v6.14.5
     - Xcode Version 11.5 (11E608c)
+    - not tested on Android Studio yet
+    - did not try running on EXPO CLI yet
+
   - This GitHub repo only has the code I am building and maintaining
+
   - To run the code developers will need to do step 1, above
     - to have latest react native and accompanying libraries and development environment
     - following the steps creates an "Awesome Project"
