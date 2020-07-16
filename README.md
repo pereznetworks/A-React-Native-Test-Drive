@@ -68,3 +68,4 @@
     - following the steps creates an "Awesome Project"
       - with a whole lot of scaffolding for developing and testing with Apple and Android platforms
     - copy the files from this repo, over the ones from the original AwesomeProject
+    - if publishing, do so along with LICENSE file
