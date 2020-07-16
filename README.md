@@ -46,9 +46,9 @@
 
 ### Caveats and Requirements:
   - This code runs and is tested on
-    - react native v 0.63
-    - node 12.14.0
-    - npm 6.14.5
+    - react native v0.63
+    - node v12.14.0
+    - npm v6.14.5
     - Xcode Version 11.5 (11E608c)
   - This GitHub repo only has the code I am building and maintaining
   - To run the code developers will need to do step 1, above
