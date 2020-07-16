@@ -21,6 +21,7 @@
     - modularizes the jsx code that tests for global.HermesInternal:
     - learn about this open-source JavaScript engine optimized for running React Native apps on Android.
       - https://reactnative.dev/docs/hermes
+    
 
   - new App.js
     - calls all other App components and modules
