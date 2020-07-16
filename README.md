@@ -21,7 +21,7 @@
     - modularizes the jsx code that tests for global.HermesInternal:
     - learn about this open-source JavaScript engine optimized for running React Native apps on Android.
       - https://reactnative.dev/docs/hermes
-    
+
 
   - new App.js
     - calls all other App components and modules
@@ -46,5 +46,6 @@
 
 ### Caveats and Requirements:
   - This GitHub repo only has the code I am building and maintaining
-  - To run the code developers will the to do step 1, above
+  - To run the code developers will need to do step 1, above
     - to have latest react native and accompanying libraries and development environment
+    - copy the files from this repo, over the ones from the original AwesomeProject that following the step create.
