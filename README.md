@@ -59,7 +59,9 @@
     - not tested on Android Studio yet
     - did not try running on EXPO CLI yet
 
+
   - This GitHub repo only has the code I am building and maintaining
+
 
   - To run the code developers will need to do step 1, above
     - to have latest react native and accompanying libraries and development environment
