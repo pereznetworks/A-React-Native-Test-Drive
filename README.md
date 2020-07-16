@@ -5,6 +5,10 @@
   - adapted from React Native's AwesomeProject
     - create your own here:  https://reactnative.dev/docs/environment-setup
 
+### LEGAL stuff
+  - Copyright (c) Facebook, Inc. and its affiliates.
+  - This source code is licensed under the MIT license found in the
+  - LICENSE file in the root directory of this source tree.
 
 ## FEATURES:
   - for now, using only the react native library
