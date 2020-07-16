@@ -48,6 +48,6 @@
   - This GitHub repo only has the code I am building and maintaining
   - To run the code developers will need to do step 1, above
     - to have latest react native and accompanying libraries and development environment
-    - following the steps to creates an "Awesome Project"
+    - following the steps creates an "Awesome Project"
       - with a whole lot of scaffolding for developing and testing with Apple and Android platforms
     - copy the files from this repo, over the ones from the original AwesomeProject
