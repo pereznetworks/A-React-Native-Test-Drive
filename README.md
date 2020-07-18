@@ -1,4 +1,4 @@
-# A React Native Test Drive
+#A React Native Test Drive
 - Modified by Daniel Perez, July 2020
   - adapted from from ReactNative's Library, NewAppScreen
     - find it here on Github: https://github.com/facebook/react-native/tree/master/Libraries/NewAppScreen
