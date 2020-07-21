@@ -47,7 +47,8 @@
 
 ### STEP 2, clone this repo
 
-### STEP 3, *carefully* copy the files from this repo over the files in your new AwesomeProject folder
+### STEP 3, *carefully*
+  - copy the files from this repo over the files in your new AwesomeProject folder
 
 ### Caveats and Requirements:
 
