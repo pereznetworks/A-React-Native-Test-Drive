@@ -74,7 +74,7 @@
   - react-native v0.63 and all the underlying pods are not ready for macOS
   - for the really super brave and experienced developers,
     - here is a list of beta and alpha versions of react-native for other platforms, including macOS
-    - [Out-Of-Tree-Platforms](https://reactnative.dev/docs/out-of-tree-platforms#docsNav)
+    - [Out-Of-Tree-Platforms](https://reactnative.dev/docs/out-of-tree-platforms)
 
 #### This GitHub repo only has the code I am building and maintaining
 
