@@ -41,28 +41,49 @@
   - real apps to test drive :build and add some real native react apps
 
 ## RUN THIS CODE FOR YOURSELF:
-  - 1st, setup your development environment: https://reactnative.dev/docs/environment-setup  
-  - 2nd, clone this repo, and copy the code into your new AwesomeProject folder
+
+### STEP 1, setup your development environment:
+  - https://reactnative.dev/docs/environment-setup  
+
+### STEP 2, clone this repo
+
+### STEP 3, *carefully* copy the files from this repo over the files in your new AwesomeProject folder
 
 ### Caveats and Requirements:
 
-  - This code runs and is tested on
-    - react-native v0.63
-    - node v12.14.0
-    - npm v6.14.5
-    - Xcode Version 11.5 (11E608c)
-    - not tested on Android Studio yet
-    - did not try running on EXPO CLI yet
+#### This code runs and is tested on
+  - react-native v0.63
+  - node v12.14.0
+  - npm v6.14.5
+  - Xcode Version 11.6 (11E708)
 
+#### Not tested
+  - not tested on Android Studio, yet
+  - did not try running on EXPO CLI, yet
 
-  - This GitHub repo only has the code I am building and maintaining
+#### Build warnings
+  - even though the build succeeds there are a lots and lots of warnings
+    - this probably due to running the latest xCode instead of xCode 8, 9 or even 10
+    - many of these warnings are related to underlying react libraries and dependencies used by react-native
+      - to fix these, we will have to:
+        - wait for the maintainers of these libraries and packages
+        - or, be approved as a contributor on these and help out *=)*
 
+#### in Xcode, the build fails when adding "MAC" as a target device
+  - react-native v0.63 and all the underlying pods are not ready for macOS
+  - for the really super brave and experienced developers,
+    - here is a list of beta and alpha versions of react-native for other platforms, including macOS
+    - [Out-Of-Tree-Platforms](https://reactnative.dev/docs/out-of-tree-platforms#docsNav)
 
-  - To run the code developers will need to do step 1, above
-    - to have latest react native and accompanying libraries and development environment
-    - following the steps creates an "Awesome Project"
-      - with a whole lot of scaffolding for developing and testing with Apple and Android platforms
-    - copy the files from this repo, over the ones from the original AwesomeProject
+#### This GitHub repo only has the code I am building and maintaining
+
+#### To run the code developers will need to do step 1, above
+  - to have latest react native and accompanying libraries and development environment
+  - following the steps creates an "Awesome Project"
+    - with a whole lot of scaffolding for developing and testing with Apple and Android platforms
+  - copy the files from this repo, over the ones from the original AwesomeProject
+  - if publishing, do so along with LICENSE file
 
 ### LEGAL stuff
-  - if publishing, do so along with LICENSE file
+  - React Native and this code are MIT Licensed
+    - If publishing, do so with the LICENSE file in the root directory of this source tree.
