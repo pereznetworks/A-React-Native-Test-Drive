@@ -66,7 +66,7 @@
   - not tested on Android Studio, yet
   - did not try running on EXPO CLI, yet
 
-#### Build warnings
+#### Build warnings, as of 7/20/2020
   - even though the build succeeds there are a lots and lots of warnings
     - this probably due to running the latest xCode instead of xCode 8, 9 or even 10
     - many of these warnings are related to underlying react libraries and dependencies used by react-native
@@ -74,7 +74,7 @@
         - wait for the maintainers of these libraries and packages
         - or, be approved as a contributor on these and help out *=)*
 
-#### in Xcode, the build fails when adding "MAC" as a target device
+#### in Xcode, the build fails when adding "MAC" as a target device, as of 7/20/2020
   - react-native v0.63 and all the underlying pods are not ready for macOS
   - for the really super brave and experienced developers,
     - here is a list of beta and alpha versions of react-native for other platforms, including macOS
