@@ -44,14 +44,14 @@
 
 ### RUN THIS CODE FOR YOURSELF:
 
-#### STEP 1, setup your development environment:
+#### STEP 1: setup your development environment:
   - https://reactnative.dev/docs/environment-setup  
   - following the steps indicated creates an "Awesome Project"
     - with a whole lot of scaffolding for developing and testing with Apple and Android platforms
 
-#### STEP 2, clone this repo
+#### STEP 2: clone this repo
 
-#### STEP 3, *carefully*
+#### STEP 3: *carefully*
   - copy the files from this repo over the files in your new AwesomeProject folder
 
 ### Caveats and Requirements:
