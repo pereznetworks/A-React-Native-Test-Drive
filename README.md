@@ -40,14 +40,18 @@
   - UX: add UI components that work and feel like apps, not like web pages
   - real apps to test drive :build and add some real native react apps
 
-## RUN THIS CODE FOR YOURSELF:
+## This GitHub repo only has the code I am building and maintaining
 
-### STEP 1, setup your development environment:
+### RUN THIS CODE FOR YOURSELF:
+
+#### STEP 1, setup your development environment:
   - https://reactnative.dev/docs/environment-setup  
+  - following the steps indicated creates an "Awesome Project"
+    - with a whole lot of scaffolding for developing and testing with Apple and Android platforms
 
-### STEP 2, clone this repo
+#### STEP 2, clone this repo
 
-### STEP 3, *carefully*
+#### STEP 3, *carefully*
   - copy the files from this repo over the files in your new AwesomeProject folder
 
 ### Caveats and Requirements:
@@ -75,15 +79,6 @@
   - for the really super brave and experienced developers,
     - here is a list of beta and alpha versions of react-native for other platforms, including macOS
     - [Out-Of-Tree-Platforms](https://reactnative.dev/docs/out-of-tree-platforms)
-
-#### This GitHub repo only has the code I am building and maintaining
-
-#### To run the code developers will need to do step 1, above
-  - to have latest react native and accompanying libraries and development environment
-  - following the steps creates an "Awesome Project"
-    - with a whole lot of scaffolding for developing and testing with Apple and Android platforms
-  - copy the files from this repo, over the ones from the original AwesomeProject
-  - if publishing, do so along with LICENSE file
 
 ### LEGAL stuff
   - React Native and this code are MIT Licensed
