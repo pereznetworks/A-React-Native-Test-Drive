@@ -1,3 +1,3 @@
-![Start Screen - Android](./StartScreen-simuluatorAVD.JPG)
+![Start Screen - Android](./StartScreen-simulatorAVD.JPG)
 
-![Welcome to React Native](./WelcomeScreen-simuluatorAVD.JPG)
+![Welcome to React Native](./WelcomeScreen-simulatorAVD.JPG)
