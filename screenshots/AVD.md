@@ -1,3 +1,3 @@
-![Start Screen - Android](./StartScreen-simulatorAVD.JPG?medium)
+![Start Screen - Android](./StartScreen-simulatorAVD.JPG?thumbnail)
 
-![Welcome to React Native](./WelcomeScreen-simulatorAVD.JPG?medium)
+![Welcome to React Native](./WelcomeScreen-simulatorAVD.JPG?thumbnail)
