@@ -1,3 +1,3 @@
-![Start Screen - Android](./StartScreen-simulatorAVD.JPG?thumbnail)
+![Start Screen - Android](./StartScreen-simulatorAVD.JPG =50x200)
 
-![Welcome to React Native](./WelcomeScreen-simulatorAVD.JPG?thumbnail)
+![Welcome to React Native](./WelcomeScreen-simulatorAVD.JPG =50x200)
