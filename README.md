@@ -38,7 +38,7 @@
     - based on WelcomeToReact, features my custom react native apps
 
 ## Screen Shots
-![Android Screen Shots](screenshots/AVD.md)
+[Android Screen Shots](screenshots/AVD.md)
 
 ## TODO: in no particular order *=)*
 - Add UX consistent with Android Guidelines
