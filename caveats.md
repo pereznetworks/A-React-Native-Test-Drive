@@ -25,11 +25,11 @@
   - bBatchedBridgeConfig is not set
 
 - EXPO-CLI for iOS and Android
-  - Andriod Studio and xCode have more involved errors but basically same issue
-
-- further complicating the matter...
-  - recent update to EXPO-CLI
-  - apparently has changed syntax to iOS/Andriod integration config files  
+  - same basic issues, more verbose errors, I think *=)*
+  - best guess is...
+    - recent update to EXPO-CLI, causes all kinds of errors
+    - iOS and Android config files look the same, but  
+      - there are different versions of dependencies
 
 #### Build warnings, as of 7/20/2020
 - using react-native init scaffolding only
