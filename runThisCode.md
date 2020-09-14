@@ -1,7 +1,9 @@
 ## This GitHub repo only has the code I am building and maintaining
 
-### App.js and AppModules folder
-  - only files with my custom code
+### files with my custom code
+- App.js
+- AppModules folder
+- thats all for now
 
 ### RUN THIS CODE FOR YOURSELF:
 
