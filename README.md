@@ -3,14 +3,13 @@
 
 - adapted from from ReactNative's Library, NewAppScreen
 
-- find it here on Github: https://github.com/facebook/react-native/tree/master/Libraries/NewAppScreen
+- find it here on Github:
+https://github.com/facebook/react-native/tree/master/Libraries/NewAppScreen
 
 - adapted from React Native's AwesomeProject
 
-- create your own here:  https://reactnative.dev/docs/environment-setup
-
-## Recommendation: use React-Native init scaffolding only
-- See EXPO-CLI build warnings below    
+- create your own here:  
+https://reactnative.dev/docs/environment-setup  
 
 ## FEATURES AND DEVELOPMENT PLANS
 [Features and Plans](./about.md)
