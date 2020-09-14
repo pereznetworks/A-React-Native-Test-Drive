@@ -45,3 +45,5 @@
   - for the really super brave and experienced developers,
     - here is a list of beta and alpha versions of react-native for other platforms, including macOS
     - <a href="https://reactnative.dev/docs/out-of-tree-platforms" target="_blank">Out-Of-Tree-Platforms</a>
+
+[Back Home](./README.md)
