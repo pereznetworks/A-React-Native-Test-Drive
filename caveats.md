@@ -21,8 +21,7 @@
 
 #### EXPO-CLI Build warnings as of 9/2020
 - EXPO-CLI for web:
-  - critical dependency error
-  - require function used in way that prevents static build
+  - critical dependency error, require function used in way that prevents static build
   - bBatchedBridgeConfig is not set
 
 - EXPO-CLI for iOS and Android
