@@ -1,7 +1,7 @@
 # A React Native Test Drive
 
-- Check out my apps and developement plans
-   - [my developnent plans](./about.md)
+- I will porting my apps to react-native 
+    - https://pereznetworks.github.io
 
 - Using Expo to test across web browsers, iOS and Andriod devices 
    - [run this Code](https://reactnative.dev/docs/environment-setup)

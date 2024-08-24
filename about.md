@@ -1,6 +1,3 @@
-## Features
-
-- I will porting my apps to react-native 
-    - https://pereznetworks.github.io
+## About
 
 [Home](./README.md)
