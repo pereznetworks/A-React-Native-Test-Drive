@@ -1,9 +1,4 @@
 ## Features
-- for now, using only the react native library
-- trying to build entire app as reusable App and JSX components
-- added useState, props, event handlers
-- passing props: event handlers(), state, css styles
-- testing for use a platform for truly universal apps
 
 ## MODULAR APPROACH:
 - added JSX Modules
