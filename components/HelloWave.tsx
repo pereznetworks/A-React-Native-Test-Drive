@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import {  Pressable, StyleSheet } from 'react-native';
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -22,10 +22,12 @@ export function HelloWave() {
   }));
 
   return (
-    <Animated.View style={animatedStyle}>
-      <ThemedText style={styles.text}>👋</ThemedText>
-    </Animated.View>
+      <Animated.View style={animatedStyle}>
+          <ThemedText style={styles.text}>👋</ThemedText>
+      </Animated.View>
   );
+    
+
 }
 
 const styles = StyleSheet.create({
