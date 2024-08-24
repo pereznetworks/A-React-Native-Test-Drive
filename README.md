@@ -7,6 +7,6 @@
    - [start your own react native testing](https://reactnative.dev/docs/environment-setup)
 
 ### LEGAL stuff
-  - [React Native](https://github.com/facebook/react-native?tab=readme-ov-file#-license) 
+  - [React Native Licensing](https://github.com/facebook/react-native?tab=readme-ov-file#-license) 
   
   - This site and my code are [MIT Licensed](./LICENSE)
