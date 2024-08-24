@@ -6,7 +6,7 @@
 - Check out my apps and developement plans
    - [my developnent plans](./about.md)
 
-- Using Expo to test code across web browsers, iOS and Andriod devices 
+- Using Expo Go to test across web browsers, iOS and Andriod devices 
    - [run this Code](./runThisCode.md)
 
 ### LEGAL stuff
