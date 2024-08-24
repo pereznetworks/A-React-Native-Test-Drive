@@ -10,4 +10,6 @@
   - [find it here on Github](https://github.com/facebook/react-native)
 
 ### LEGAL stuff
-  - React Native and this code are [MIT Licensed](./LICENSE)
+  - [React Native](https://github.com/facebook/react-native?tab=readme-ov-file#-license) 
+  
+  - This site and my code are [MIT Licensed](./LICENSE)
