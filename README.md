@@ -4,7 +4,7 @@
     - https://pereznetworks.github.io
 
 - Using Expo to test across web browsers, iOS and Andriod devices 
-   - [run this Code](https://reactnative.dev/docs/environment-setup)
+   - [start your own react native testing](https://reactnative.dev/docs/environment-setup)
 
 ### LEGAL stuff
   - [React Native](https://github.com/facebook/react-native?tab=readme-ov-file#-license) 
