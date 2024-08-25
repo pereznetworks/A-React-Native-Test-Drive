@@ -1,4 +1,5 @@
-import {  Pressable, StyleSheet } from 'react-native';
+import { useState } from 'react';
+import { StyleSheet } from 'react-native';
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -10,7 +11,15 @@ import Animated, {
 import { ThemedText } from '@/components/ThemedText';
 
 export function HelloWave() {
-  const rotationAnimation = useSharedValue(0);
+  
+  let rotationAnimation = useSharedValue(0);
+
+  const wavAgain  = () => {
+    rotationAnimation.value = withRepeat(
+      withSequence(withTiming(25, { duration: 150 }), withTiming(0, { duration: 150 })),
+      4 // Run the animation 4 times
+      );
+  }
 
   rotationAnimation.value = withRepeat(
     withSequence(withTiming(25, { duration: 150 }), withTiming(0, { duration: 150 })),
@@ -23,7 +32,7 @@ export function HelloWave() {
 
   return (
       <Animated.View style={animatedStyle}>
-          <ThemedText style={styles.text}>👋</ThemedText>
+          <ThemedText onPress={wavAgain} style={styles.text}>👋</ThemedText>
       </Animated.View>
   );
     
