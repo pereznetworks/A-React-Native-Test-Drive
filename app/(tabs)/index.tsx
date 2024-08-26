@@ -18,13 +18,9 @@ export default function HomeScreen() {
     " Salve" // Italian
   ];
   
-  const [greetingIndex, setGreetingIndex] = useState(0);
-  
   const [greetingText, setGreetingText] = useState(Greetings[indexNum])
   
   function handleClick() {
-    console.log('indexNum ' + indexNum)
-    console.log('greetingText ' + greetingText)
      indexNum < 4 ? indexNum++ : indexNum = 0
      setGreetingText(Greetings[indexNum])
   }
@@ -45,35 +41,15 @@ export default function HomeScreen() {
       </ThemedView>
       </Pressable>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Try it</ThemedText>
         <ThemedText>
           Tap <ThemedText type="defaultSemiBold">the Welcome greeting</ThemedText> to see different languages.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Try some code</ThemedText>
+        <ThemedText type="subtitle">Now ..</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Use Developer Tools to inspect the app.{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: ' Press cmd + d to open developer tools', android: ' Press icmd + m to open developer tools' })}
-          </ThemedText>{' '}
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Explore</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 4: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          On smaller brower windows and mobile devices<ThemedText type="defaultSemiBold"> the app is scrollable</ThemedText>.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
@@ -98,3 +74,30 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
 });
+
+{/* <ThemedView style={styles.stepContainer}>
+<ThemedText type="subtitle">Step 1: Try some code</ThemedText>
+<ThemedText>
+  Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
+  Use Developer Tools to inspect the app.{' '}
+  <ThemedText type="defaultSemiBold">
+    {Platform.select({ ios: ' Press cmd + d to open developer tools', android: ' Press icmd + m to open developer tools' })}
+  </ThemedText>{' '}
+</ThemedText>
+</ThemedView>
+<ThemedView style={styles.stepContainer}>
+<ThemedText type="subtitle">Step 2: Explore</ThemedText>
+<ThemedText>
+  Tap the Explore tab to learn more about what's included in this starter app.
+</ThemedText>
+</ThemedView>
+<ThemedView style={styles.stepContainer}>
+<ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+<ThemedText>
+  When you're ready, run{' '}
+  <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
+  <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
+  <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
+  <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+</ThemedText>
+</ThemedView> */}
