@@ -54,11 +54,10 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">Step 2: Try some code</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          In Platfrom Simulator ress{' '}
+          Use Developer Tools to inspect the app.{' '}
           <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
+            {Platform.select({ ios: ' Press cmd + d to open developer tools', android: ' Press icmd + m to open developer tools' })}
           </ThemedText>{' '}
-          to open developer tools.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
