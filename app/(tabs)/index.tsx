@@ -51,7 +51,7 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Try it</ThemedText>
+        <ThemedText type="subtitle">Step 2: Try some code</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
           In Platfrom Simulator ress{' '}
