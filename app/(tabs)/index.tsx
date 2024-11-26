@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   },
 });
 
-{/* <ThemedView style={styles.stepContainer}>
+/* <ThemedView style={styles.stepContainer}>
 <ThemedText type="subtitle">Step 1: Try some code</ThemedText>
 <ThemedText>
   Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.

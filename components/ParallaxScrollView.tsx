@@ -28,7 +28,7 @@ export default function ParallaxScrollView({
   const headerAnimatedStyle = useAnimatedStyle(() => {
     return {
       transform: [
-        {
+                {
           translateY: interpolate(
             scrollOffset.value,
             [-HEADER_HEIGHT, 0, HEADER_HEIGHT],
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    height: 250,
+    height: HEADER_HEIGHT,
     overflow: 'scroll',
   },
   content: {

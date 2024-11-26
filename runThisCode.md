@@ -5,18 +5,35 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 - This adapted from from ReactNative's Library
   - [find it here on Github](https://github.com/facebook/react-native)
   
-## Get started
+## Get started usng Yarn
 
 1. Install dependencies
 
    ```bash
-   npm install
+   yarn install
+   
+   yarn add @expo/cli 
+
+   yarn config set nodeLinker node-modules
+
+   yarn install
    ```
 
-2. Start the app
+2. if Expo Go, React, or React-Native SDK has been updated 
 
    ```bash
-    npx expo start
+   npx expo-doctor
+
+   npx expo install --check 
+   
+   yarn install 
+   ```
+
+
+3. Start the app
+
+   ```bash
+    yarn start
    ```
 
 In the output, you'll find options to open the app in a
