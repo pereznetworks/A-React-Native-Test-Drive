@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { StyleSheet } from 'react-native';
 import Animated, {
   useSharedValue,
@@ -10,28 +11,33 @@ import Animated, {
 
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { useEffect, useRef } from 'react';
 
 export function HelloWave() {
 
-  let rotationAnimation = useSharedValue(0);
+ let rotationAnimation = useSharedValue(0);
+  // let rotationAnimation = useRef(0);
+
+  React.useEffect(() => {
+    rotationAnimation.value = withRepeat(
+      withSequence(withTiming(25, { duration: 150 }), withTiming(0, { duration: 150 })),
+      4 // Run the animation 4 times
+      );
+  })
+
+  let animatedStyle = useAnimatedStyle(() => ({
+    transform: [{ rotate: `${rotationAnimation.value}deg` }],
+  }));
 
   const wavAgain  = () => {
     
-    rotationAnimation.value = withRepeat(
-    withSequence(withTiming(25, { duration: 150 }), withTiming(0, { duration: 150 })),
-    4 // Run the animation 4 times
-    );
-    
-    }
-
-  rotationAnimation.value = withRepeat(
-    withSequence(withTiming(25, { duration: 150 }), withTiming(0, { duration: 150 })),
-    4 // Run the animation 4 times
-  );
-
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ rotate: `${rotationAnimation.value}deg` }],
-  }));
+    React.useEffect(() => {
+      rotationAnimation.value = withRepeat(
+        withSequence(withTiming(25, { duration: 150 }), withTiming(0, { duration: 150 })),
+        4 // Run the animation 4 times
+        );
+    })
+  }
 
   return (
       <ThemedView >

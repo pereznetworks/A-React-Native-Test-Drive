@@ -100,4 +100,4 @@ const styles = StyleSheet.create({
   <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
   <ThemedText type="defaultSemiBold">app-example</ThemedText>.
 </ThemedText>
-</ThemedView> */}
+</ThemedView> */
