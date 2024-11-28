@@ -19,12 +19,14 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    yarn install
    ```
 
-2. if Expo Go, React, or React-Native SDK has been updated 
+2. if Expo Go, React, or React-Native SDK, or something else has been updated 
 
    ```bash
    npx expo-doctor
 
    npx expo install --check 
+   
+   yarn cache clear 
    
    yarn install 
    ```
