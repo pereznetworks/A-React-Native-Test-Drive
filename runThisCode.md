@@ -5,7 +5,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 - This adapted from from ReactNative's Library
   - [find it here on Github](https://github.com/facebook/react-native)
   
-## Get started usng Yarn
+## Get started using Yarn
 
 1. Install dependencies
 
