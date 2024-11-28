@@ -13,6 +13,12 @@
 - I will porting my apps to react-native 
     - https://pereznetworks.github.io
 
+### Fixes
+
+  - Expo 52 and React Native Reanimated 3.16
+
+    - applying fix per react rules, Side effects must run outside of render: see reenimated docs:  https://docs.swmansion.com/react-native-reanimated/docs/core/useSharedValue#remarks
+    
 ### LEGAL stuff
   - [React Native Licensing](https://github.com/facebook/react-native?tab=readme-ov-file#-license) 
   
